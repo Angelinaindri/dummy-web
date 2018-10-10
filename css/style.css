@@ -5,9 +5,12 @@ body {
 a {
    color: #0A0000;
    background-color: #E2DDB1; 
-a:hover {
-    color: #FFEF14;
 }
+
+a:hover {
+    color:#FF4B14;
+}
+
 }
 #p{
     color: #211812;
@@ -15,5 +18,6 @@ a:hover {
     font-size: 15px;
     font-weight: bold;
     font-family:Courier New;
-    font-style : Normal; }
+    font-style : Normal;
+ }
  
