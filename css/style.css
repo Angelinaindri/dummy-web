@@ -16,7 +16,7 @@ a:hover {
 #p{
     color: #211812;
     background-color: #E2DDB1 ;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
     font-family:'Sue Ellen Francisco', cursive;
     font-style : Normal;
@@ -29,10 +29,10 @@ a:hover {
  
 h2 {
     font-family:'Love Ya Like A Sister', cursive;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 h3 {
     font-family:'Just Me Again Down Here', cursive;
-    font-size: 24px;
+    font-size: 25px;
 }
