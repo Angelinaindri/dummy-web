@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Love+Ya+Like+A+Sister|K2D|Sue+Ellen+Francisco|Patrick+Hand');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Love+Ya+Like+A+Sister|K2D|Sue+Ellen+Francisco|Patrick+Hand|Oswald');
 body {
     background-color:#DEB887 ;
 }
@@ -44,4 +44,5 @@ h4 {
 
 div{
     background-color: #BC471C ;
+    font-family: 'Oswald', sans-serif;
 }
