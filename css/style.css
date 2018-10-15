@@ -48,14 +48,12 @@ div{
     font-size: 35px;
 }
 
-.satu{
-    background-color: #E2DDB1; 
-    width: 30px;
-    height: 30%;
+.header{
+    background-color: #E2DDB1;
 }
 
-.dua{
+.main{
     background-color: #893E23;
-    width:30px;
-    height: 30%;
+    width:500px;
+    height: 550%;
 }
