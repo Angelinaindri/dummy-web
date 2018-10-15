@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Love+Ya+Like+A+Sister|K2D|Sue+Ellen+Francisco|Patrick+Hand|Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Love+Ya+Like+A+Sister|K2D|Sue+Ellen+Francisco|Patrick+Hand|Poiret+One');
 body {
     background-color:#DEB887 ;
 }
@@ -44,8 +44,8 @@ h4 {
 
 div{
     background-color: #BC471C ;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 35px;
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
 }
 
 .header{
@@ -54,6 +54,6 @@ div{
 
 .main{
     background-color: #893E23;
-    width:500px;
+    width:1500px;
     height: 550%;
 }
