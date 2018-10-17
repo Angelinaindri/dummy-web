@@ -70,15 +70,20 @@ h4 {
     font-size: 25px;
 }
 
-.penjelasan{
+.penjelasan {
     font-family: sanserif;  
+}
+
+.isi {
+    width: 100%;
 }
 
 .isi1 {
     background-color: #CEC175;
-    float: right;
+    float: left;
 }
 
 .isi2 {
     background-color: #CEA725;
+    float: right;
 }
