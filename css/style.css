@@ -81,9 +81,11 @@ h4 {
 .isi1 {
     background-color: #CEC175;
     float: left;
+    width: 50%;
 }
 
 .isi2 {
     background-color: #CEA725;
     float: right;
+    width:50%
 }
