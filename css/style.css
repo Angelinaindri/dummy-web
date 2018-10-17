@@ -65,7 +65,13 @@ div {
     height: 500px;
 }
 
-.copyright {
+.copyright a {
     font-family: 'Amatic SC', cursive;
     font-size: 25px;
+}
+
+.copyright p {
+    font-family: verdana, cursive;
+    font-size: 35px;
+    color: red;
 }
