@@ -64,8 +64,7 @@ h4 {
     font-size: 25px;
 }
 
-.copyright p {
-    font-family: verdana, cursive;
-    font-size: 35px;
-    color: red;
+.copyright span {
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
 }
