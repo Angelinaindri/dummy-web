@@ -108,8 +108,10 @@ h4 {
 .box1 {
     background-color: #CEA725;
     float: left;
-    width: 50%;
+    width: 47%;
     height: 350px;
+    padding-left: 40px;
+    text-align: center;
 }
 
 .box2 {
@@ -117,4 +119,6 @@ h4 {
     float: right;
     width:50%;
     height: 350px;
+    padding-left: 40px;
+    text-align: center;
 }
