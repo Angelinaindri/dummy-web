@@ -83,8 +83,10 @@ h4 {
 .isi1 {
     background-color: #E59F54;
     float: left;
-    width: 50%;
+    width: 47%;
     height: 350px;
+    padding-left: 40px;
+    text-align: center;
 }
 
 .isi2 {
@@ -92,6 +94,9 @@ h4 {
     float: right;
     width:50%;
     height: 350px;
+    padding-left: 40px;
+    text-align: center;
+
 }
 
 .box {
