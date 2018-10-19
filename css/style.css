@@ -154,3 +154,24 @@ h4 {
 
 }
 
+.gallery {
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(.2, #ffffff), color-stop(1, #ff9900) );
+    width: 100%;
+    height: 100px;
+}
+
+.gallery1{
+    background-color: #e5b439;
+    float: left;
+    width: 50%;
+    height: 420px;
+    text-align: center;
+}
+
+.gallery2{
+    background-color: #e5b439;
+    float: right;
+    width: 50%;
+    height: 420px;
+    text-align: center;
+}
