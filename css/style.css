@@ -75,17 +75,21 @@ h4 {
 }
 
 .isi {
+    background-color: brown;
     width: 100%;
+    height: 100px;
 }
 
 .isi1 {
     background-color: #CEC175;
     float: left;
     width: 50%;
+    height: 100px;
 }
 
 .isi2 {
     background-color: #CEA725;
     float: right;
-    width:50%
+    width:50%;
+    height: 100px;
 }
