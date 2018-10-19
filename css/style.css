@@ -156,30 +156,3 @@ h4 {
 
 }
 
-.gallery{
-   background: #ff9900; 
-    background: -moz-linear-gradient( center top, #ffffff 20%, #ff9900 100% ); 
-    background: -webkit-gradient( linear, left top, left bottom, color-stop(.2, #ffffff), color-stop(1, #ff9900) );
-    widht: 100%;
-    height: 50px;
-}
-
-}
-
-.gallery1{
-    background-color: #E59F54;
-    float: left;
-    width: 47%;
-    height: 50px;
-    padding-left: 40px;
-    text-align: center;
-}
-
-.gallery2{
-    background-color: #E59F54;
-    float: left;
-    width: 47%;
-    height: 50px;
-    padding-left: 40px;
-    text-align: center;
-}
