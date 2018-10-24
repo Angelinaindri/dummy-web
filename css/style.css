@@ -20,23 +20,24 @@ a:hover {
     font-weight: bold;
     font-family:'Sue Ellen Francisco', cursive;
     font-style : Normal;
- }
- 
+}
+
  h1 {
     font-family:'K2D', sans-serif;
     font-size: 55px;
-    background-color: #EDA15A;
+    background-color: #FCB471;
 }
  
 h2 {
     font-family:'Love Ya Like A Sister', cursive;
     font-size: 30px;
+    background-color: #E8B56F;                             
 }
 
 h3 {
     font-family:'Kaushan Script', cursive;
     font-size: 35px;
-}
+}                                                                                                       
 
 h4 {
     font-family: 'Patrick Hand', cursive;
