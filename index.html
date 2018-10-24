@@ -5,50 +5,185 @@
       kopinusantara
     </title>
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/indriii.css" rel="stylesheet">
+
+    <style>
+      * {box-sizing:border-box}
+      body {
+          font-family: Verdana,sans-serif;
+      }
+      .mySlides {
+          display:none
+      }
+      
+      /* Slideshow container */
+      .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+      }
+      
+      /* Caption text */
+      .text {
+          color: #f2f2f2;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+          height: 13px;
+          width: 13px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+      }
+      .active {
+          background-color: #717171;
+      }
+      
+      /* Fading animation */
+      .fade {
+          -webkit-animation-name: fade;
+          -webkit-animation-duration: 1.5s;
+          animation-name: fade;
+          animation-duration: 1.5s;
+      }
+      
+      @-webkit-keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+      }
+      
+      @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+      }
+      
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+          .text {font-size: 11px}
+      }
+  </style>
+
   </head>
   <body>
-    <div class="header">
-      <a href="index.html" title="Ini kembali ke home"><img src="http://pngimage.net/wp-content/uploads/2018/06/png-kopi.png" height="50" alt="Ini adalah gambar logo gelas kopi"></a>
+    <nav>
+      <a href="index.html" title="Ini kembali ke home"><img class="logo" src="http://pngimage.net/wp-content/uploads/2018/06/png-kopi.png" height="50" alt="Ini adalah gambar logo gelas kopi"></a>
       <a href="index.html" title="Ini adalah link home">Home</a>
       <a href="kopi.html"  title="Ini adalah link tentang kopi">Tentang Kopi</a>
       <a href="about.html" title="Ini adalah link tentang lifestyle">Lifestyle</a>
       <a href="gallery.html" title="Ini adalah link tentang galeri kopi">Galeri</a>
       <a href="contact.html" title="Ini adalah link tentang kontak">Contact Us</a>
-    </div>
     
-    <div class="main">
-        <img class="gambartema" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Coffee_Beans.jpg/800px-Coffee_Beans.jpg" alt="Kopi">
-        <center>
-        <h1>KOPI NUSANTARA</h1>
-        <h2><strong>KOPI KAMI KOPI INDONESIA</strong></h2>
-        <p id="p"><strong>Kopi</strong> adalah minuman hasil seduhan biji kopi yang telah disangrai dan dihaluskan menjadi bubuk.
-          <br>Kopi merupakan salah satu komoditas di dunia yang dibudidayakan lebih dari 50 negara.
-          <br> Dua varietas pohon kopi yang dikenal secara umum yaitu<em> Kopi Robusta (Coffea canephora).</em><strong>
-          <br>*Yuk bahas..</strong>
-          <a href="kopi.html" title="kopinusantara">Klik Disini</a>
-        </p>
-          
-        <h1>OUR JOURNEY</h1>
+    <!-- DIV SLIDE -->
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+          <img src="https://3.bp.blogspot.com/-EKojuX8vtkY/WFdQqoVEwaI/AAAAAAAAAPo/1DFwMKbVwboC13Hvy6i1MfJSPA3eKZaGQCLcB/s1600/02%2BTempat%2Btinggal%2Bpekerja%2Bkebun%2Bteh%2BMalabar%2Bdi%2Bkaki%2BGunung%2BWindu.JPG" style="width:90%">
+          <div class="text">Alam Indonesia</div>
+      </div>
+
+      <div class="mySlides fade">
+          <img src="https://blog.blanja.com/wp-content/uploads/2015/03/Coffee-Beans-Wallpaper-HD.jpg" style="width:90%">
+          <div class="text">Biji Kopi Pilihan</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="http://cdn.gogirlmagz.com/media/upload//2017/03/16/learn-how-to-make-a-great-cup-of-coffee-here-A42368-312ku3q5c19.jpg" style="width:90%">
+        <div class="text">Meracik kopi</div>
+      </div>
+
+  </div>
+  <br>
+
+      <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+      </div>
+
+          <script>
+              var slideIndex = 0;
+              showSlides();
+              function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+              }
+
+              slideIndex++;
+              if (slideIndex> slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 5000); // Change image every 2 seconds
+              }
+      </script>
+
+    </nav>
+    <div>
+        <img class="gambartema" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Coffee_Beans.jpg/800px-Coffee_Beans.jpg" alt="Kopi" width="1500" height="500">
+
+            <center>
+              <h1>KOPI NUSANTARA</h1>
+            </center>  
             
-        <h3>Our Indonesia</h3>
-        <img src="http://coffeeland.co.id/wp-content/uploads/2017/04/map-indonesian-coffee-1600x800.jpg" alt="Petakopi" width="1300" height="500">  
-        <br>
-        
-        <h4>
-          <blockquote>
-            <strong>
-                <em>"Hidup itu Seperti Secangkir Kopi.Kadang Terasa Manis atau Pahit Tergantung Bagaimana Kita Membuatnya"
-                  <br>
-                  --Anonim--
-                </em>
-              </strong>
-            </blockquote>
-          </h4>
-          
-          <br>
-          <a href="kopigayo.html" title="Menjelaskan Tentang Kopi Gayo">
+            <center>
+              <h2><strong>KOPI KAMI KOPI INDONESIA</strong></h2>
+            </center>
+            
+            <center>
+            <p id="p"><strong>Kopi</strong> adalah minuman hasil seduhan biji kopi yang telah disangrai dan dihaluskan menjadi bubuk.
+            <br>Kopi merupakan salah satu komoditas di dunia yang dibudidayakan lebih dari 50 negara.
+            <br> Dua varietas pohon kopi yang dikenal secara umum yaitu<em> Kopi Robusta (Coffea canephora).</em> <strong>
+            <br>*Yuk bahas..</strong>
+
+            <a href="kopi.html" title="kopinusantara">Klik Disini</a></p>
+            </center>
+            
+            <center>
+              <h1>OUR JOURNEY</h1>
+            </center>
+            
+            <center>
+              <h3>Our Indonesia</h3>
+            </center>
+            
+            <center>
+            <img src="http://coffeeland.co.id/wp-content/uploads/2017/04/map-indonesian-coffee-1600x800.jpg" alt="Petakopi" width="1300" height="500">
+            </center>
+            <br>
+            
+            <center>
+              <h3><blockquote><strong><em>"Hidup itu Seperti Secangkir Kopi.Kadang Terasa Manis atau Pahit Tergantung Bagaimana Kita Membuatnya"
+                <br>
+              --Anonim--
+              </em></strong></blockquote></h3>
+            </center>
+         
+            <center>
+            <br>
             <img src="https://raw.githubusercontent.com/Angelinaindri/Angelinaindri.github.io/master/images/download.jpg" alt="bungkuskopi" width="240">
-          </a> 
             <img src="https://raw.githubusercontent.com/Angelinaindri/Angelinaindri.github.io/master/images/download.jpg" alt="bungkuskopi" width="240">
             <img src="https://raw.githubusercontent.com/Angelinaindri/Angelinaindri.github.io/master/images/download.jpg" alt="bungkuskopi" width="240">
             <img src="https://raw.githubusercontent.com/Angelinaindri/Angelinaindri.github.io/master/images/download.jpg" alt="bungkuskopi" width="240">
@@ -60,12 +195,9 @@
             <img src="https://raw.githubusercontent.com/Angelinaindri/Angelinaindri.github.io/master/images/download.jpg" alt="bungkuskopi" width="240">
             <img src="https://raw.githubusercontent.com/Angelinaindri/Angelinaindri.github.io/master/images/download.jpg" alt="bungkuskopi" width="240">
             </center>
-            
-            <div class="copyright">   
-                <a href="https://www.instagram.com/agllcca_/?hl=id">My Instagram</a>
-                <span>Angellicaindri~ copyright &#169; 2018 Powered by</span> 
-                <a href="https://angelinaindri.github.io/">Blogger</a>
-            </div> 
+              
+            <a href="https://www.instagram.com/agllcca_/?hl=id"></a>Angellicaindri~ copyright &#169; 2018 Powered by <a href="https://angelinaindri.github.io/">Blogger</a>
+
        </div>
    </body>
 </html>
