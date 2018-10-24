@@ -79,7 +79,7 @@ h4 {
     background-color: brown;
     width: 100%;
     height: 350px;
-    border-style: dashed double none;
+    border: 1rem solid;
 }
 
 .isi1 {
