@@ -25,6 +25,7 @@ a:hover {
  h1 {
     font-family:'K2D', sans-serif;
     font-size: 55px;
+    background-color: #EDA15A;
 }
  
 h2 {
@@ -78,6 +79,7 @@ h4 {
     background-color: brown;
     width: 100%;
     height: 350px;
+    border-style: dashed double none;
 }
 
 .isi1 {
@@ -103,6 +105,7 @@ h4 {
     background-color: brown;
     width: 100%;
     height: 350px;
+    border: thick double #C0E01F;
 }
 
 .box1 {
