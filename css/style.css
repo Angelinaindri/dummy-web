@@ -47,6 +47,11 @@ h4 {
     font-size: 25px;
 }
 
+.khusus{
+    font-family: 'Frijole', cursive;
+    font-size: 15px;
+}
+
 .header {
     background-color: #E2DDB1;
     font-family: 'Kalam', cursive;
