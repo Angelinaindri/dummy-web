@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Love+Ya+Like+A+Sister|K2D|Sue+Ellen+Francisco|Patrick+Hand|Poiret+One|Amatic+SC|Kalam');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Love+Ya+Like+A+Sister|K2D|Sue+Ellen+Francisco|Patrick+Hand|Poiret+One|Amatic+SC|Kalam|Courgette');
 
 body {
     background-color:#DEB887 ;
@@ -40,6 +40,12 @@ h3 {
 h4 {
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
+}
+
+.teks{
+    font-family: 'Courgette', cursive;
+    font-size: 35px;
+    color: #752900;
 }
 
 .header {
