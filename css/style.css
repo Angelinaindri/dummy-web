@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Love+Ya+Like+A+Sister|K2D|Sue+Ellen+Francisco|Patrick+Hand|Poiret+One|Amatic+SC|Kalam|Courgette');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Love+Ya+Like+A+Sister|K2D|Sue+Ellen+Francisco|Patrick+Hand|Poiret+One|Amatic+SC|Kalam|Courgette|Oswald');
 
 body {
     background-color:#DEB887 ;
@@ -201,4 +201,8 @@ h4 {
     width: 50%;
     height: 420px;
     text-align: center;
+}
+
+.wkwk{
+    font-family: 'Oswald', sans-serif;
 }
