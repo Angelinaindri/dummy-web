@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Love+Ya+Like+A+Sister|K2D|Sue+Ellen+Francisco|Patrick+Hand|Poiret+One|Amatic+SC|Kalam|Courgette|Oswald|Nunito|Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Love+Ya+Like+A+Sister|K2D|Sue+Ellen+Francisco|Patrick+Hand|Poiret+One|Amatic+SC|Kalam|Courgette|Oswald|Nunito');
 
 body {
     background-color:#DEB887 ;
@@ -90,7 +90,9 @@ h4 {
 }
 
 .penjelasan {
-    font-family: sanserif;  
+    font-family: sanserif;
+    padding: 14px;
+    margin-top: 0;
 }
 
 .isi {
@@ -242,7 +244,6 @@ h4 {
 .bagian2{
     background-color: #F1F2C6;
     color: black;
-    font-family: 'Varela Round', sans-serif;
     text-align: left;
     border-style: double;
     padding: 14px;
