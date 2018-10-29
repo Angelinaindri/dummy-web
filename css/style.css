@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Love+Ya+Like+A+Sister|K2D|Sue+Ellen+Francisco|Patrick+Hand|Poiret+One|Amatic+SC|Kalam|Courgette|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Love+Ya+Like+A+Sister|K2D|Sue+Ellen+Francisco|Patrick+Hand|Poiret+One|Amatic+SC|Kalam|Courgette|Oswald|Nunito');
 
 body {
     background-color:#DEB887 ;
@@ -205,4 +205,8 @@ h4 {
 
 .wkwk{
     font-family: 'Oswald', sans-serif;
+}
+
+.wkwk1{
+    font-family: 'Nunito', sans-serif;
 }
