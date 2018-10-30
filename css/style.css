@@ -43,6 +43,11 @@ h4 {
     font-size: 20px;
 }
 
+.tentang{
+   width: 200%;
+   height: 250px;
+}
+
 .kanan{
     text-align:right;
 }
@@ -249,4 +254,9 @@ h4 {
     padding: 14px;
     width: 60%;
     margin: auto;
+}
+
+a img {
+    border: none;
+    position: relative;
 }
