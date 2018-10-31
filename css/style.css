@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Love+Ya+Like+A+Sister|K2D|Sue+Ellen+Francisco|Patrick+Hand|Poiret+One|Amatic+SC|Kalam|Courgette|Oswald|Nunito|Baloo+Bhaijaan|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Love+Ya+Like+A+Sister|K2D|Sue+Ellen+Francisco|Patrick+Hand|Poiret+One|Amatic+SC|Kalam|Courgette|Oswald|Nunito|Baloo+Bhaijaan|Source+Sans+Pro|Dosis');
 
 body {
     background-color:#DEB887 ;
@@ -279,4 +279,9 @@ a img {
 .hai{
     border-bottom: 1px solid #ddd;
     width: 866px;
+}
+
+.hello{
+    font-family: 'Dosis', sans-serif;
+    font-size: 10px;
 }
