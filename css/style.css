@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Love+Ya+Like+A+Sister|K2D|Sue+Ellen+Francisco|Patrick+Hand|Poiret+One|Amatic+SC|Kalam|Courgette|Oswald|Nunito');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Love+Ya+Like+A+Sister|K2D|Sue+Ellen+Francisco|Patrick+Hand|Poiret+One|Amatic+SC|Kalam|Courgette|Oswald|Nunito|Baloo+Bhaijaan|font-family: 'Source Sans Pro', sans-serif;
+');
 
 body {
     background-color:#DEB887 ;
@@ -260,3 +261,12 @@ a img {
     border: none;
     position: relative;
 }
+
+.tidak{
+    font-family: 'Baloo Bhaijaan', cursive;
+}
+
+.iya{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+    
