@@ -36,7 +36,7 @@ h2 {
 h3 {
     font-family:'Kaushan Script', cursive;
     font-size: 35px;
-}                                                                                                       
+} 
 
 h4 {
     font-family: 'Patrick Hand', cursive;
@@ -274,4 +274,8 @@ a img {
     width: 441px;
     height: 321px;
     margin-top: auto;
+}
+
+.hai{
+    border-bottom: 1px solid #ddd;
 }
