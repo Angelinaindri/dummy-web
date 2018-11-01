@@ -277,7 +277,7 @@ a img {
 }
 
 .hai{
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #252826;
     width: 866px;
 }
 
@@ -287,5 +287,9 @@ a img {
 }
 
 .hah{
-    border-bottom: 1px solid #ddd;  
+    border-bottom: 1px solid #252826;  
+}
+
+.wow{
+    border-bottom: 1px dotted #252826;  
 }
