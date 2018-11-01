@@ -297,3 +297,25 @@ a img {
 .hi{
     background-color: #252826;
 }
+
+element.style {
+    visibility: visible;
+    animation-name: fadeInDown;
+}
+
+#coffee-belt h3 {
+    font-family: 'oswaldbook';
+    font-size: 1.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    position: relative;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
