@@ -261,36 +261,36 @@ a img {
     position: relative;
 }
 
-.tidak{
+.tidak {
     font-family: 'Baloo Bhaijaan', cursive;
 }
 
-.iya{
+.iya {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 25px;
 }
   
-.gogo{
+.gogo {
     width: 441px;
     height: 321px;
     margin-top: auto;
 }
 
-.hai{
+.hai {
     border-bottom: 1px solid #252826;
     width: 866px;
 }
 
-.hello{
+.hello {
     font-family: 'Dosis', sans-serif;
     font-size: 21px;
 }
 
-.hah{
+.hah {
     border-bottom: 1px solid #252826;  
 }
 
-.wow{
+.wow {
     font-family:'K2D', sans-serif;   
 
 }
@@ -300,12 +300,12 @@ a img {
     color: black;
 }
 
-.wk{
+.wk {
     margin: center;  
     font-family:'K2D', sans-serif;
 }
 
-.banner img {
+.banner {
     margin-left: 80px;
     margin-right: 80px;
     margin-top: 50px;
