@@ -107,23 +107,6 @@ h4 {
     border: 1px dashed black;
 }
 
-.isi1 {
-    background-color: #DEB887;
-    width: 96%;
-    height: 409px;
-    border: 1px dashed black;
-}
-
-.isi2 {
-    background-color: #CEA725;
-    float: right;
-    width: 46.9%;
-    height: 314px;
-    padding-left: 40px;
-    text-align: center;
-    border-left: 1px dashed black;
-}
-
 .box {
     background-color: #DEB887;
     width: 96%;
