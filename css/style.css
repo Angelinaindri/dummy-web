@@ -49,6 +49,12 @@ h4 {
     margin: 0px;
 }
 
+.contain {
+    object-fit: contain; 
+    width: 200px;
+    height: 200px;
+}
+
 .tentang{
    width: 76%;
     height: 447px;
