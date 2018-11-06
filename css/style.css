@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Love+Ya+Like+A+Sister|K2D|Sue+Ellen+Francisco|Patrick+Hand|Poiret+One|Amatic+SC|Kalam|Courgette|Oswald|Nunito|Baloo+Bhaijaan|Source+Sans+Pro|Dosis');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Love+Ya+Like+A+Sister|Bungee+Inline|K2D|Sue+Ellen+Francisco|Patrick+Hand|Poiret+One|Amatic+SC|Kalam|Courgette|Oswald|Nunito|Baloo+Bhaijaan|Source+Sans+Pro|Dosis');
 
 body {
     background-color:#DEB887 ;
@@ -41,6 +41,12 @@ h3 {
 h4 {
     font-family: 'Patrick Hand', cursive;
     font-size: 20px;
+}
+
+.boo{
+    font-family:'Bungee Inline', cursive;
+    font-size: 55px;
+    margin: 0px;
 }
 
 .tentang{
