@@ -329,3 +329,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', end
     font-size: 25px; 
 }
 
+div.ex1 {
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: scroll;
+}
